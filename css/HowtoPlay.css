@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+
+body {
+  /* background-color: white; */
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  padding: 0;
+  /* font-size: 10px;  */
+}
+
+h1 {
+  font-family: Nova Square;
+  align-items: center;
+  flex-direction: row; 
+  font-size: 50px;
+  color: yellow;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 50px;
+  padding-top: 70px;
+}
+
+.container2 {
+  text-align: center;
+  width: 100vw;
+  height: 97vh;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 80rem; */
+  margin: 0 auto;
+  padding: 5px;
+  background: linear-gradient(90deg,
+        rgb(18, 92, 255) 0%,
+        rgb(0, 102, 255) 100%); 
+}
+
+.img {
+  height: 50vh;
+  width: 50vw;
+  border-radius: 4px;
+}
+
+#howto {
+  font-family: Nova Square;
+  font-size: 20px;
+  padding-top: 50px;
+  color: yellow;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#button {
+  font-family: Nova square;
+  /* border-radius: 4px; *
+  /* font-size: 20px; */
+  padding-top: 70px;
+  width: 100px;
+  margin-top: 180px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: yellow;
+  background: linear-gradient(90deg,
+      rgb(18, 92, 255) 0%,
+      rgb(0, 102, 255) 100%); 
+  border: 1px solid yellow;
+  border-radius: 4px;
+  padding: 14px 8px;
+  cursor: pointer;
+}
+
+/* * :hover {
+  background: #2196F3;
+  color: white;
+}  */
+
+.footer {
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .choicecontainer {
+    min-width: 40rem;
+}
+
+.btn {
+  min-width: 40rem;
+  }
+}
+
+@media (min-width : 300px) and (max-width : 350px) {
+      .container2 {
+        width: 90%;
+        height: 80vh;
+      }
+
+
+  }
